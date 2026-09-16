@@ -176,7 +176,7 @@
                 <div class="swiper product-large-slider">
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                      <img src="dzialki/1.jpeg" alt="product-large" class="img-fluid">
+                      <img src="images/item15.jpg" alt="product-large" class="img-fluid">
                     </div>
                     <div class="swiper-slide">
                       <img src="dzialki/2.jpeg" alt="product-large" class="img-fluid">
@@ -198,7 +198,7 @@
                 <div thumbsSlider="" class="swiper product-thumbnail-slider">
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                      <img src="dzialki/1.jpeg" alt="image" class="thumb-image img-fluid">
+                      <img src="images/item15.jpg" alt="image" class="thumb-image img-fluid">
                     </div>
                     <div class="swiper-slide">
                       <img src="dzialki/2.jpeg" alt="image" class="thumb-image img-fluid">

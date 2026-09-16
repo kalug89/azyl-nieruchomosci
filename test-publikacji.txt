@@ -1,0 +1,1 @@
+Publikacja z VS Code działa.
