@@ -182,7 +182,7 @@
                       <img src="dzialki/2.jpeg" alt="product-large" class="img-fluid">
                     </div>
                     <div class="swiper-slide">
-                      <img src="dzialki/3.jpeg" alt="product-large" class="img-fluid">
+                      <img src="dzialki/dzialka_media.png" alt="product-large" class="img-fluid">
                     </div>
                     <div class="swiper-slide">
                       <img src="dzialki/4.jpeg" alt="product-large" class="img-fluid">
@@ -204,7 +204,7 @@
                       <img src="dzialki/2.jpeg" alt="image" class="thumb-image img-fluid">
                     </div>
                     <div class="swiper-slide">
-                      <img src="dzialki/3.jpeg" alt="image" class="thumb-image img-fluid">
+                      <img src="dzialki/dzialka_media.png" alt="image" class="thumb-image img-fluid">
                     </div>
                     <div class="swiper-slide">
                       <img src="dzialki/4.jpeg" alt="image" class="thumb-image img-fluid">
