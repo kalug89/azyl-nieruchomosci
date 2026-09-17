@@ -153,9 +153,8 @@
     <div class="container padding-large">
       <div class="row justify-content-center">
         <div class="col-lg-8">
-          <h1 class="text-capitalize text-white lh-1 my-3">Znajdź swój azyl</h1>
-          <p class="text-white mb-4">Sprzedaj, kup lub wynajmij nieruchomość z pomocą doświadczonych specjalistów.
-            Bezpiecznie, profesjonalnie i na jasnych zasadach. </p>
+          <h1 style="font-size: 64px" class="text-white lh-3 my-3">Pewny krok w dobrą stronę</h1>
+          <p class="text-white mb-4">Sprzedaj, kup lub wynajmij nieruchomość z pomocą doświadczonych specjalistów. Bezpiecznie, profesjonalnie i na jasnych zasadach.</p>
 
           <!-- <div class="row billboard-row rounded-pill align-items-center">
             <div class="col-lg-3">

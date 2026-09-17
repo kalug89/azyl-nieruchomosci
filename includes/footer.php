@@ -3,7 +3,7 @@
       <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 padding-medium">
 
         <div class=" col-md-2">
-          <h3><img style="width: 150px;" src="images/logo.png" alt="image"></h3>
+          <h3><img style="width: 150px;" src="images/logo-white.png" alt="image"></h3>
      </div>
 
 
@@ -20,7 +20,7 @@
         </div>
 
          <div class=" col-md-4">
-             <h3>Skontaktuj się z nami:</h3>
+             <h3 class="text-white">Skontaktuj się z nami:</h3>
           <p class="text-white">
             Telefon: +48 123 456 789     </p>
         <p class="text-white"> E-mail: kontakt@azylnieruchomosci.pl</p>

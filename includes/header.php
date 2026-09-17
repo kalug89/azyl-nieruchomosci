@@ -1,7 +1,7 @@
 <nav id="header" class="navbar navbar-expand-lg bg-dark fixed-top py-4 px-2 p-md-4">
     <div class="container-fluid ">
 
-      <a class="navbar-brand" href="./index.php"><img style="width: 100px" src="images/logo.png" alt="image"></a>
+      <a class="navbar-brand" href="./index.php"><img style="width: 150px" src="images/logo-white.png" alt="image"></a>
 
       <button class="navbar-toggler text-white" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
