@@ -171,52 +171,162 @@
           <article class="property">
 
             <div class="row flex-column">
-              <div class="col-md-12">
-                <!-- product-large-slider -->
-                <div class="swiper product-large-slider">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                      <img src="images/item15.jpg" alt="product-large" class="img-fluid">
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="dzialki/2.jpeg" alt="product-large" class="img-fluid">
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="dzialki/dzialka_media.png" alt="product-large" class="img-fluid">
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="dzialki/4.jpeg" alt="product-large" class="img-fluid">
-                    </div>
-                    
+  <div class="col-12">
 
-                  </div>
-                </div>
-                <!-- / product-large-slider -->
-              </div>
-              <div class="col-md-12 mt-2">
-                <!-- product-thumbnail-slider -->
-                <div thumbsSlider="" class="swiper product-thumbnail-slider">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                      <img src="images/item15.jpg" alt="image" class="thumb-image img-fluid">
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="dzialki/2.jpeg" alt="image" class="thumb-image img-fluid">
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="dzialki/dzialka_media.png" alt="image" class="thumb-image img-fluid">
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="dzialki/4.jpeg" alt="image" class="thumb-image img-fluid">
-                    </div>
-                    
+    <!-- Duże zdjęcia -->
+    <div id="azylGallery" class="swiper overflow-hidden rounded">
+      <div class="swiper-wrapper">
 
-                  </div>
-                </div>
-                <!-- / product-thumbnail-slider -->
-              </div>
+        <div class="swiper-slide">
+          <div class="ratio ratio-4x3">
+            <button type="button"
+                    class="border-0 p-0 bg-transparent w-100 h-100"
+                    data-photo="0"
+                    aria-label="Powiększ widok nieruchomości">
+              <img src="images/item15.jpg"
+                   alt="Widok nieruchomości"
+                   class="d-block w-100 h-100"
+                   style="object-fit: contain;">
+            </button>
+          </div>
+        </div>
 
-            </div>
+        <div class="swiper-slide">
+          <div class="ratio ratio-4x3">
+            <button type="button"
+                    class="border-0 p-0 bg-transparent w-100 h-100"
+                    data-photo="1"
+                    aria-label="Powiększ zdjęcie działki">
+              <img src="dzialki/2.jpeg"
+                   alt="Widok działki"
+                   class="d-block w-100 h-100"
+                   style="object-fit: contain;">
+            </button>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="ratio ratio-4x3">
+            <button type="button"
+                    class="border-0 p-0 bg-transparent w-100 h-100"
+                    data-photo="2"
+                    aria-label="Powiększ mapę mediów">
+              <img src="dzialki/dzialka_media.png"
+                   alt="Mapa mediów działki"
+                   class="d-block w-100 h-100"
+                   style="object-fit: contain;">
+            </button>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="ratio ratio-4x3">
+            <button type="button"
+                    class="border-0 p-0 bg-transparent w-100 h-100"
+                    data-photo="3"
+                    aria-label="Powiększ zdjęcie otoczenia">
+              <img src="dzialki/4.jpeg"
+                   alt="Otoczenie działki"
+                   class="d-block w-100 h-100"
+                   style="object-fit: contain;">
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Sterowanie pod dużym zdjęciem -->
+    <div class="d-flex align-items-center justify-content-between gap-2 mt-2">
+      <button id="azylPrev" type="button"
+              class="btn btn-dark"
+              aria-label="Poprzednie zdjęcie">
+        &#10094;
+      </button>
+
+      <button id="azylEnlarge" type="button"
+              class="btn btn-outline-dark">
+        Powiększ zdjęcie
+      </button>
+
+      <button id="azylNext" type="button"
+              class="btn btn-dark"
+              aria-label="Następne zdjęcie">
+        &#10095;
+      </button>
+    </div>
+
+  </div>
+
+  <!-- Miniaturki -->
+  <div class="col-12 mt-3">
+    <div id="azylThumbs" class="swiper overflow-hidden">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="ratio ratio-4x3">
+            <button type="button"
+                    class="border-0 p-0 bg-dark w-100 h-100"
+                    data-index="0"
+                    aria-label="Pokaż zdjęcie 1">
+              <img src="images/item15.jpg" alt=""
+                   class="d-block w-100 h-100 rounded"
+                   style="object-fit: cover;">
+            </button>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="ratio ratio-4x3">
+            <button type="button"
+                    class="border-0 p-0 bg-dark w-100 h-100"
+                    data-index="1"
+                    aria-label="Pokaż zdjęcie 2">
+              <img src="dzialki/2.jpeg" alt=""
+                   class="d-block w-100 h-100 rounded"
+                   style="object-fit: cover;">
+            </button>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="ratio ratio-4x3">
+            <button type="button"
+                    class="border-0 p-0 bg-dark w-100 h-100"
+                    data-index="2"
+                    aria-label="Pokaż zdjęcie 3">
+              <img src="dzialki/dzialka_media.png" alt=""
+                   class="d-block w-100 h-100 rounded"
+                   style="object-fit: cover;">
+            </button>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="ratio ratio-4x3">
+            <button type="button"
+                    class="border-0 p-0 bg-dark w-100 h-100"
+                    data-index="3"
+                    aria-label="Pokaż zdjęcie 4">
+              <img src="dzialki/4.jpeg" alt=""
+                   class="d-block w-100 h-100 rounded"
+                   style="object-fit: cover;">
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
 
             <div class="post-content py-5">
 
@@ -488,21 +598,21 @@ Cena:
           <h2 class=" fs-2 text-uppercase text-black my-3">ZAREZERWUJ</h2>
           <div class="form-input col-lg-12 my-4">
             <label for="exampleInputEmail1" class="form-label fs-6 text-uppercase fw-bold text-black">Imię i nazwisko</label>
-            <input type="text" name="email" placeholder="Write Your Name Here" class="form-control ps-3">
+            <input type="text" name="email" placeholder="Wpisz imię i nazwisko" class="form-control ps-3">
           </div>
           <div class="form-input col-lg-12 my-4">
             <label for="exampleInputEmail1" class="form-label fs-6 text-uppercase fw-bold text-black">Adres e-mail</label>
-            <input type="text" name="email" placeholder="Write Your Email Here" class="form-control ps-3">
+            <input type="text" name="email" placeholder="Wpisz twój adres e-mail" class="form-control ps-3">
           </div>
           <div class="col-lg-12 my-4">
             <label for="exampleInputEmail1" class="form-label fs-6 text-uppercase fw-bold text-black">Numer telefonu</label>
-            <input type="text" name="email" placeholder="Phone Number" class="form-control ps-3">
+            <input type="text" name="email" placeholder="Numer telefonu" class="form-control ps-3">
           </div>
     
  
           <div class="col-lg-12 my-4">
             <label for="exampleInputEmail1" class="form-label fs-6 text-uppercase fw-bold text-black">Wiadomość</label>
-            <textarea placeholder="Write Your Message Here" class="form-control ps-3" rows="8"></textarea>
+            <textarea placeholder="Miejsce na twoją wiadomość" class="form-control ps-3" rows="8"></textarea>
           </div>
           <div class="d-grid mb-3">
             <button class="btn btn-primary btn-lg text-uppercase btn-rounded-none">Wyślij</button>
@@ -533,7 +643,7 @@ Cena:
                 <h5 class="element-title text-black text-uppercase ">Magda Kalużna</h5>
               </a>
               <h6 class="heading-color text-black">Agentka nieruchomości</h6>
-              <p class="text-black m-0">+1650-243-0000</p>
+              <p class="text-black m-0">+48 511-854-990</p>
             </div>
           </article>
 
@@ -547,7 +657,7 @@ Cena:
                 <h5 class="element-title text-black text-uppercase ">Dawid Kalużny</h5>
               </a>
               <h6 class="heading-color text-black">Agent nieruchomości</h6>
-              <p class="text-black m-0">+1650-243-0000</p>
+              <p class="text-black m-0"></p>
             </div>
           </article>
 
@@ -594,6 +704,214 @@ Cena:
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+
+
+<div class="modal fade"
+     id="azylPhotoModal"
+     tabindex="-1"
+     aria-labelledby="azylPhotoTitle"
+     aria-hidden="true">
+
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content bg-dark text-body">
+
+      <div class="modal-header border-0">
+        <h2 class="modal-title fs-6 text-white" id="azylPhotoTitle">
+          Zdjęcia nieruchomości
+        </h2>
+
+        <button type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Zamknij podgląd"></button>
+      </div>
+
+      <div class="modal-body position-relative p-0 overflow-hidden">
+        <div class="position-absolute top-0 start-0 w-100 h-100 p-2">
+          <img id="azylFullPhoto"
+               alt=""
+               class="d-block w-100 h-100"
+               style="object-fit: contain;">
+        </div>
+      </div>
+
+      <div class="modal-footer border-0 justify-content-between flex-nowrap">
+        <button id="azylModalPrev" type="button"
+                class="btn btn-outline-light"
+                aria-label="Poprzednie zdjęcie">
+          &#10094;
+        </button>
+
+        <span id="azylPhotoCounter" aria-live="polite"></span>
+
+        <button id="azylModalNext" type="button"
+                class="btn btn-outline-light"
+                aria-label="Następne zdjęcie">
+          &#10095;
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<script>
+(() => {
+  function initAzylGallery() {
+    const galleryElement = document.getElementById("azylGallery");
+    const thumbsElement = document.getElementById("azylThumbs");
+    const modalElement = document.getElementById("azylPhotoModal");
+
+    if (!galleryElement || galleryElement.swiper) return;
+
+    if (!window.Swiper || !window.bootstrap?.Modal) {
+      console.error("Galeria wymaga Swipera oraz JavaScriptu Bootstrap 5.");
+      return;
+    }
+
+    const photoButtons = [
+      ...galleryElement.querySelectorAll("[data-photo]")
+    ];
+
+    const photos = photoButtons.map(button => {
+      const img = button.querySelector("img");
+
+      return {
+        src: img.dataset.full || img.getAttribute("src"),
+        alt: img.alt
+      };
+    });
+
+    const thumbs = new Swiper(thumbsElement, {
+      slidesPerView: 4,
+      spaceBetween: 8,
+      watchOverflow: true
+    });
+
+    const gallery = new Swiper(galleryElement, {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      effect: "slide",
+      loop: false,
+      autoHeight: false
+    });
+
+    const thumbButtons = [
+      ...thumbsElement.querySelectorAll("[data-index]")
+    ];
+
+    function updateThumbnails() {
+      thumbButtons.forEach((button, index) => {
+        const active = index === gallery.activeIndex;
+
+        button.setAttribute("aria-current", active ? "true" : "false");
+        button.classList.toggle("opacity-50", !active);
+      });
+
+      thumbs.slideTo(gallery.activeIndex);
+    }
+
+    gallery.on("slideChange", updateThumbnails);
+    updateThumbnails();
+
+    thumbsElement.addEventListener("click", event => {
+      const button = event.target.closest("[data-index]");
+      if (!button || thumbs.allowClick === false) return;
+
+      gallery.slideTo(Number(button.dataset.index));
+    });
+
+    // Przechodzenie w obie strony, również z ostatniego na pierwsze.
+    function moveGallery(direction) {
+      const index =
+        (gallery.activeIndex + direction + photos.length) % photos.length;
+
+      gallery.slideTo(index);
+    }
+
+    document.getElementById("azylPrev").addEventListener(
+      "click", () => moveGallery(-1)
+    );
+
+    document.getElementById("azylNext").addEventListener(
+      "click", () => moveGallery(1)
+    );
+
+    const modal = new bootstrap.Modal(modalElement);
+    const fullPhoto = document.getElementById("azylFullPhoto");
+    const counter = document.getElementById("azylPhotoCounter");
+
+    let currentPhoto = 0;
+    let opener = null;
+
+    function showPhoto(index) {
+      currentPhoto = (index + photos.length) % photos.length;
+
+      fullPhoto.src = photos[currentPhoto].src;
+      fullPhoto.alt = photos[currentPhoto].alt;
+      counter.textContent = `${currentPhoto + 1} / ${photos.length}`;
+    }
+
+    function openPhoto(index, trigger) {
+      opener = trigger;
+      showPhoto(index);
+      modal.show(trigger);
+    }
+
+    galleryElement.addEventListener("click", event => {
+      const button = event.target.closest("[data-photo]");
+
+      // Przesunięcie palcem nie powinno otwierać powiększenia.
+      if (!button || gallery.allowClick === false) return;
+
+      openPhoto(Number(button.dataset.photo), button);
+    });
+
+    document.getElementById("azylEnlarge").addEventListener(
+      "click", event => openPhoto(gallery.activeIndex, event.currentTarget)
+    );
+
+    document.getElementById("azylModalPrev").addEventListener(
+      "click", () => showPhoto(currentPhoto - 1)
+    );
+
+    document.getElementById("azylModalNext").addEventListener(
+      "click", () => showPhoto(currentPhoto + 1)
+    );
+
+    modalElement.addEventListener("keydown", event => {
+      if (event.key === "ArrowLeft") {
+        event.preventDefault();
+        showPhoto(currentPhoto - 1);
+      }
+
+      if (event.key === "ArrowRight") {
+        event.preventDefault();
+        showPhoto(currentPhoto + 1);
+      }
+    });
+
+    modalElement.addEventListener("shown.bs.modal", () => {
+      modalElement.querySelector("[data-bs-dismiss]").focus();
+    });
+
+    modalElement.addEventListener("hidden.bs.modal", () => {
+      fullPhoto.removeAttribute("src");
+
+      if (opener?.isConnected) {
+        opener.focus({ preventScroll: true });
+      }
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initAzylGallery);
+  } else {
+    initAzylGallery();
+  }
+})();
+</script>
+
+
 </body>
 
 </html>

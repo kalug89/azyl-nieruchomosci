@@ -22,7 +22,7 @@
          <div class=" col-md-4">
              <h3 class="text-white">Skontaktuj się z nami:</h3>
           <p class="text-white">
-            Telefon: +48 123 456 789     </p>
+            Telefon: +48 511-854-990</p>
         <p class="text-white"> E-mail: kontakt@azylnieruchomosci.pl</p>
 
      

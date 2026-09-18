@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="pl">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Resido - Real Estate HTML CSS Website Template</title>
+  <title>Dom premium w Piastowie, 244 m² | Azyl Nieruchomości</title>
 
   <link rel="stylesheet" type="text/css" href="css/vendor.css">
 
@@ -58,10 +58,6 @@
         <path fill="currentColor"
           d="m21.433 4.861l-6 15.5a1 1 0 0 1-1.624.362l-3.382-3.235l-2.074 2.073a.5.5 0 0 1-.853-.354v-4.519L2.309 9.723a1 1 0 0 1 .442-1.691l17.5-4.5a1 1 0 0 1 1.181 1.329ZM19 6.001L8.032 13.152l1.735 1.66L19 6Z" />
       </g>
-    </symbol>
-    <symbol xmlns="http://www.w3.org/2000/svg" id="quote" viewBox="0 0 16 16">
-      <path fill="currentColor"
-        d="M7 7v7H0V6.9c0-4.8 4.5-5.4 4.5-5.4l.6 1.4s-2 .3-2.4 1.9C2.3 6 3.1 7 3.1 7zm9 0v7H9V6.9c0-4.8 4.5-5.4 4.5-5.4l.6 1.4s-2 .3-2.4 1.9c-.4 1.2.4 2.2.4 2.2z" />
     </symbol>
     <symbol xmlns="http://www.w3.org/2000/svg" id="play" viewBox="0 0 24 24">
       <path fill="currentColor"
@@ -161,6 +157,7 @@
           </div>
         </div>
       </div>
+    </div>
   </section>
 
 
@@ -171,89 +168,76 @@
         <div class="row">
           <article class="property">
 
-            <!-- product-large-slider -->
-
-            <div class="swiper product-large-slider w-100 overflow-hidden">
-
+            <!-- Galeria domu: duże zdjęcia, sterowanie i miniaturki -->
+            <div id="azylGallery" class="swiper w-100 overflow-hidden rounded bg-transparent">
               <div class="swiper-wrapper">
-
                 <div class="swiper-slide">
-
-                  <div class="ratio ratio-16x9">
-
-                    <img src="images/domy/4.jpg" alt="product-large" class="w-100 h-100 object-fit-cover">
-
+                  <div class="ratio ratio-4x3 bg-transparent">
+                    <button type="button" class="border-0 p-0 bg-transparent w-100 h-100" data-photo="0" aria-label="Powiększ zdjęcie 1">
+                      <img src="images/domy/4.jpg" alt="Dom w Piastowie — zdjęcie 1" class="d-block w-100 h-100" style="object-fit: contain;">
+                    </button>
                   </div>
-
                 </div>
-
                 <div class="swiper-slide">
-
-                  <div class="ratio ratio-16x9">
-
-                    <img src="images/domy/2.jpg" alt="product-large" class="w-100 h-100 object-fit-cover">
-
+                  <div class="ratio ratio-4x3 bg-transparent">
+                    <button type="button" class="border-0 p-0 bg-transparent w-100 h-100" data-photo="1" aria-label="Powiększ zdjęcie 2">
+                      <img src="images/domy/2.jpg" alt="Dom w Piastowie — zdjęcie 2" class="d-block w-100 h-100" style="object-fit: contain;">
+                    </button>
                   </div>
-
                 </div>
-
                 <div class="swiper-slide">
-
-                  <div class="ratio ratio-16x9">
-
-                    <img src="images/domy/3.jpg" alt="product-large" class="w-100 h-100 object-fit-cover">
-
+                  <div class="ratio ratio-4x3 bg-transparent">
+                    <button type="button" class="border-0 p-0 bg-transparent w-100 h-100" data-photo="2" aria-label="Powiększ zdjęcie 3">
+                      <img src="images/domy/3.jpg" alt="Dom w Piastowie — zdjęcie 3" class="d-block w-100 h-100" style="object-fit: contain;">
+                    </button>
                   </div>
-
                 </div>
-
                 <div class="swiper-slide">
-
-                  <div class="ratio ratio-16x9">
-
-                    <img src="images/domy/5.jpg" alt="product-large" class="w-100 h-100 object-fit-cover">
-
+                  <div class="ratio ratio-4x3 bg-transparent">
+                    <button type="button" class="border-0 p-0 bg-transparent w-100 h-100" data-photo="3" aria-label="Powiększ zdjęcie 4">
+                      <img src="images/domy/5.jpg" alt="Dom w Piastowie — zdjęcie 4" class="d-block w-100 h-100" style="object-fit: contain;">
+                    </button>
                   </div>
-
-                </div>
-
-
-
-
-
-
-
-              </div>
-
-
-
-
-              <!-- / product-large-slider -->
-            </div>
-            <div class="col-md-12 mt-2">
-              <!-- product-thumbnail-slider -->
-              <div thumbsSlider="" class="swiper product-thumbnail-slider">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <img src="images/domy/4.jpg" alt="image" class="thumb-image img-fluid">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="images/domy/2.jpg" alt="image" class="thumb-image img-fluid">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="images/domy/3.jpg" alt="image" class="thumb-image img-fluid">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="images/domy/5.jpg" alt="image" class="thumb-image img-fluid">
-                  </div>
-
-
                 </div>
               </div>
-              <!-- / product-thumbnail-slider -->
             </div>
-
-        </div>
+            <div class="d-flex align-items-center justify-content-between gap-2 mt-2">
+              <button id="azylPrev" type="button" class="btn btn-dark" aria-label="Poprzednie zdjęcie">&#10094;</button>
+              <button id="azylEnlarge" type="button" class="btn btn-outline-dark">Powiększ zdjęcie</button>
+              <button id="azylNext" type="button" class="btn btn-dark" aria-label="Następne zdjęcie">&#10095;</button>
+            </div>
+            <div id="azylThumbs" class="swiper w-100 overflow-hidden mt-3">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="ratio ratio-4x3">
+                    <button type="button" class="border-0 p-0 bg-transparent w-100 h-100" data-index="0" aria-label="Pokaż zdjęcie 1">
+                      <img src="images/domy/4.jpg" alt="" class="d-block w-100 h-100 rounded" style="object-fit: cover;">
+                    </button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="ratio ratio-4x3">
+                    <button type="button" class="border-0 p-0 bg-transparent w-100 h-100" data-index="1" aria-label="Pokaż zdjęcie 2">
+                      <img src="images/domy/2.jpg" alt="" class="d-block w-100 h-100 rounded" style="object-fit: cover;">
+                    </button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="ratio ratio-4x3">
+                    <button type="button" class="border-0 p-0 bg-transparent w-100 h-100" data-index="2" aria-label="Pokaż zdjęcie 3">
+                      <img src="images/domy/3.jpg" alt="" class="d-block w-100 h-100 rounded" style="object-fit: cover;">
+                    </button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="ratio ratio-4x3">
+                    <button type="button" class="border-0 p-0 bg-transparent w-100 h-100" data-index="3" aria-label="Pokaż zdjęcie 4">
+                      <img src="images/domy/5.jpg" alt="" class="d-block w-100 h-100 rounded" style="object-fit: cover;">
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
 
         <div class="post-content py-5">
 
@@ -337,14 +321,14 @@
                 763 m², położony w Piastowie, tuż przy granicy Warszawy. To propozycja dla osób ceniących nowoczesną
                 architekturę, wysoką jakość wykonania oraz komfort codziennego życia w kameralnym otoczeniu z
                 szybkim dostępem do stolicy.
-            </p>
+            </span></p>
 
             <p> <span class="fw-bold">
                 Na sprzedaż wyjątkowy dom jednorodzinny o powierzchni 244 m², usytuowany na działce o powierzchni
                 763 m², położony w Piastowie, tuż przy granicy Warszawy. To propozycja dla osób ceniących nowoczesną
                 architekturę, wysoką jakość wykonania oraz komfort codziennego życia w kameralnym otoczeniu z
                 szybkim dostępem do stolicy.
-            </p>
+            </span></p>
 
             <p> <span class="fw-bold">
                 Nieruchomość została wybudowana w 2016 roku
@@ -352,14 +336,14 @@
                 prezentowany na okładce magazynu *Murator*, wystąpił w programie Omeny Mensah „Domy Wyjątkowe”,
                 otrzymał wyróżnienie Fasada Roku 2016 oraz został nominowany do konkursu ArchDaily Building of the
                 Year 2018.
-            </p>
+            </span></p>
 
             <p> <span class="fw-bold">
                 Architektura domu opiera się na prostocie formy, ponadczasowej estetyce i harmonijnym połączeniu z
                 otoczeniem. Klasyczna bryła z dwuspadowym dachem została wzbogacona o nowoczesne detale i
                 kontrastowe materiały wykończeniowe. Biały tynk zestawiono z ryflowaną elewacją z ciemnego drewna, a
                 całość uzupełniają antracytowe okna oraz dach pokryty płaską dachówką ceramiczną.
-            </p>
+            </span></p>
 
 
 
@@ -370,18 +354,15 @@
                 do wnętrz naturalne światło, jednocześnie zachowując dyskrecję dzięki roletom i odpowiednio
                 zaprojektowanym ścianom osłonowym.
 
-            </p>
+            </span></p>
 
             <p> <span class="fw-bold">
                 Wnętrza zachwycają nowoczesnym wzornictwem oraz starannie dobranymi materiałami. Dominują biała
                 cegła, ciemne drewno, stal i szkło, a wyjątkowego charakteru nadają odsłonięta więźba dachowa,
                 designerski kominek ze stali oraz efektowny szklany most łączący część domu.
-            </p>
+            </span></p>
 
-            <p> <span class="fw-bold">
-            </p>
-
-            </p>
+            
 
           </div>
           <hr>
@@ -435,6 +416,7 @@
 
         </div>
         </article>
+        </div>
         <!-- <div id="post-author-info" class="border-top border-bottom py-5">
             <div class="row d-flex align-items-center">
               <div class="col-md-3">
@@ -567,37 +549,33 @@
             </div>
           </section> -->
 
-    </div>
     </main>
 
     <aside class="col-md-3">
-      <form id="form" class="form-group flex-wrap border rounded-4 p-3">
-        <h2 class=" fs-2 text-uppercase text-black my-3">ZAREZERWUJ</h2>
-        <div class="form-input col-lg-12 my-4">
-          <label for="exampleInputEmail1" class="form-label fs-6 text-uppercase fw-bold text-black">Imię i
-            nazwisko</label>
-          <input type="text" name="email" placeholder="Write Your Name Here" class="form-control ps-3">
-        </div>
-        <div class="form-input col-lg-12 my-4">
-          <label for="exampleInputEmail1" class="form-label fs-6 text-uppercase fw-bold text-black">Adres
-            e-mail</label>
-          <input type="text" name="email" placeholder="Write Your Email Here" class="form-control ps-3">
-        </div>
-        <div class="col-lg-12 my-4">
-          <label for="exampleInputEmail1" class="form-label fs-6 text-uppercase fw-bold text-black">Numer
-            telefonu</label>
-          <input type="text" name="email" placeholder="Phone Number" class="form-control ps-3">
-        </div>
-
-
-        <div class="col-lg-12 my-4">
-          <label for="exampleInputEmail1" class="form-label fs-6 text-uppercase fw-bold text-black">Wiadomość</label>
-          <textarea placeholder="Write Your Message Here" class="form-control ps-3" rows="8"></textarea>
-        </div>
-        <div class="d-grid mb-3">
-          <button class="btn btn-primary btn-lg text-uppercase btn-rounded-none">Wyślij</button>
-        </div>
-      </form>
+            <form id="form" class="form-group flex-wrap border rounded-4 p-3">
+          <h2 class=" fs-2 text-uppercase text-black my-3">ZAREZERWUJ</h2>
+          <div class="form-input col-lg-12 my-4">
+            <label for="exampleInputEmail1" class="form-label fs-6 text-uppercase fw-bold text-black">Imię i nazwisko</label>
+            <input type="text" name="email" placeholder="Wpisz imię i nazwisko" class="form-control ps-3">
+          </div>
+          <div class="form-input col-lg-12 my-4">
+            <label for="exampleInputEmail1" class="form-label fs-6 text-uppercase fw-bold text-black">Adres e-mail</label>
+            <input type="text" name="email" placeholder="Wpisz twój adres e-mail" class="form-control ps-3">
+          </div>
+          <div class="col-lg-12 my-4">
+            <label for="exampleInputEmail1" class="form-label fs-6 text-uppercase fw-bold text-black">Numer telefonu</label>
+            <input type="text" name="email" placeholder="Numer telefonu" class="form-control ps-3">
+          </div>
+    
+ 
+          <div class="col-lg-12 my-4">
+            <label for="exampleInputEmail1" class="form-label fs-6 text-uppercase fw-bold text-black">Wiadomość</label>
+            <textarea placeholder="Miejsce na twoją wiadomość" class="form-control ps-3" rows="8"></textarea>
+          </div>
+          <div class="d-grid mb-3">
+            <button class="btn btn-primary btn-lg text-uppercase btn-rounded-none">Wyślij</button>
+          </div>
+        </form>
       <div class="border rounded-4 p-3 mt-5">
         <h2 class=" fs-2 text-uppercase text-black mt-3 mb-4">Nasi agenci</h2>
         <!-- <article class="comment-item align-items-center row mb-4 ">
@@ -619,17 +597,19 @@
                 class="commentor-image img-fluid rounded-circle"> </a>
           </div>
           <div class="col-md-9">
-            <a href="agents.html">
+            <a href="">
               <h5 class="element-title text-black text-uppercase ">Magda Kalużna</h5>
             </a>
             <h6 class="heading-color text-black">Agentka nieruchomości</h6>
-            <p class="text-black m-0">+1650-243-0000</p>
+            <p class="text-black m-0">+48 511-854-990</p>
+                      
+
           </div>
         </article>
 
         <article class="comment-item pb-3 align-items-center row mb-4">
           <div class="col-md-3">
-            <a href="agents.html"> <img src="images/team5.jpg" alt="default"
+            <a href=""> <img src="images/team5.jpg" alt="default"
                 class="commentor-image img-fluid rounded-circle"> </a>
           </div>
           <div class="col-md-9">
@@ -637,8 +617,10 @@
               <h5 class="element-title text-black text-uppercase ">Dawid Kalużny</h5>
             </a>
             <h6 class="heading-color text-black">Agent nieruchomości</h6>
-            <p class="text-black m-0">+1650-243-0000</p>
           </div>
+             <div class="col-md-12">
+                      <p class="text-black m-0">dawid@azyl-nieruchomosci.com</p>
+</div>
         </article>
 
 
@@ -678,13 +660,121 @@
   <?php include 'includes/footer.php'; ?>
 
 
+  <!-- Podgląd na całe okno; poza kontenerami strony -->
+  <div class="modal fade" id="azylPhotoModal" tabindex="-1" aria-labelledby="azylPhotoTitle" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content bg-body text-body">
+        <div class="modal-header border-0">
+          <h2 class="modal-title fs-6 text-body" id="azylPhotoTitle">Dom w Piastowie — zdjęcia</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Zamknij podgląd"></button>
+        </div>
+        <div class="modal-body position-relative p-0 overflow-hidden">
+          <div class="position-absolute top-0 start-0 w-100 h-100 p-2">
+            <img id="azylFullPhoto" alt="" class="d-block w-100 h-100" style="object-fit: contain;">
+          </div>
+        </div>
+        <div class="modal-footer border-0 justify-content-between flex-nowrap">
+          <button id="azylModalPrev" type="button" class="btn btn-outline-dark" aria-label="Poprzednie zdjęcie">&#10094;</button>
+          <span id="azylPhotoCounter" aria-live="polite"></span>
+          <button id="azylModalNext" type="button" class="btn btn-outline-dark" aria-label="Następne zdjęcie">&#10095;</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script src="js/jquery-1.11.0.min.js"></script>
-  <script src="js/script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+  (() => {
+    function initAzylGallery() {
+      const galleryElement = document.getElementById("azylGallery");
+      const thumbsElement = document.getElementById("azylThumbs");
+      const modalElement = document.getElementById("azylPhotoModal");
+      if (!galleryElement || galleryElement.swiper) return;
+      if (!window.Swiper || !window.bootstrap?.Modal) {
+        console.error("Galeria wymaga Swipera i JavaScriptu Bootstrap 5.");
+        return;
+      }
+      const photos = [...galleryElement.querySelectorAll("[data-photo] img")].map(img => ({
+        src: img.dataset.full || img.getAttribute("src"), alt: img.alt
+      }));
+      const thumbs = new Swiper(thumbsElement, {
+        slidesPerView: 4, spaceBetween: 8, watchOverflow: true
+      });
+      const gallery = new Swiper(galleryElement, {
+        slidesPerView: 1, spaceBetween: 0, effect: "slide", loop: false, autoHeight: false
+      });
+      const thumbButtons = [...thumbsElement.querySelectorAll("[data-index]")];
+      function updateThumbnails() {
+        thumbButtons.forEach((button, index) => {
+          const active = index === gallery.activeIndex;
+          button.setAttribute("aria-current", active ? "true" : "false");
+          button.classList.toggle("opacity-50", !active);
+        });
+        thumbs.slideTo(gallery.activeIndex);
+      }
+      gallery.on("slideChange", updateThumbnails);
+      updateThumbnails();
+      thumbsElement.addEventListener("click", event => {
+        const button = event.target.closest("[data-index]");
+        if (button && thumbs.allowClick !== false) gallery.slideTo(Number(button.dataset.index));
+      });
+      function moveGallery(direction) {
+        gallery.slideTo((gallery.activeIndex + direction + photos.length) % photos.length);
+      }
+      document.getElementById("azylPrev").addEventListener("click", () => moveGallery(-1));
+      document.getElementById("azylNext").addEventListener("click", () => moveGallery(1));
+      const modal = new bootstrap.Modal(modalElement);
+      const fullPhoto = document.getElementById("azylFullPhoto");
+      const counter = document.getElementById("azylPhotoCounter");
+      let currentPhoto = 0;
+      let opener = null;
+      function showPhoto(index) {
+        currentPhoto = (index + photos.length) % photos.length;
+        fullPhoto.src = photos[currentPhoto].src;
+        fullPhoto.alt = photos[currentPhoto].alt;
+        counter.textContent = `${currentPhoto + 1} / ${photos.length}`;
+      }
+      function openPhoto(index, trigger) {
+        opener = trigger;
+        showPhoto(index);
+        modal.show(trigger);
+      }
+      galleryElement.addEventListener("click", event => {
+        const button = event.target.closest("[data-photo]");
+        if (button && gallery.allowClick !== false) openPhoto(Number(button.dataset.photo), button);
+      });
+      document.getElementById("azylEnlarge").addEventListener("click", event => {
+        openPhoto(gallery.activeIndex, event.currentTarget);
+      });
+      document.getElementById("azylModalPrev").addEventListener("click", () => showPhoto(currentPhoto - 1));
+      document.getElementById("azylModalNext").addEventListener("click", () => showPhoto(currentPhoto + 1));
+      modalElement.addEventListener("keydown", event => {
+        if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
+          event.preventDefault();
+          showPhoto(currentPhoto + (event.key === "ArrowRight" ? 1 : -1));
+        }
+      });
+      modalElement.addEventListener("shown.bs.modal", () => {
+        modalElement.querySelector("[data-bs-dismiss]").focus();
+      });
+      modalElement.addEventListener("hidden.bs.modal", () => {
+        fullPhoto.removeAttribute("src");
+        if (opener?.isConnected) opener.focus({ preventScroll: true });
+      });
+    }
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", initAzylGallery);
+    } else {
+      initAzylGallery();
+    }
+  })();
+  </script>
 </body>
 
 </html>

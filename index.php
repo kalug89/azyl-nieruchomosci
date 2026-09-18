@@ -174,7 +174,7 @@
                 <option value="2">Miami</option>
                 <option value="3">Chicago</option>
                 <option value="4">New York</option>
-                <option value="5">Something else here</option>
+                <option value="5">Something else here</option >
               </select>
             </div>
             <div class="col-lg-3">
@@ -232,12 +232,12 @@
         </div>
 
         <div class="col-md-6">
-          <div class="text-content ps-md-5 mt-4 mt-md-0">
+          <div class="text-content ps-md-5 mt-4 mt-md-0 ">
             <h2 class="text-capitalize">Pomagamy znaleźć miejsce, które pasuje do Ciebie</h2>
             <p>Nieruchomość to nie tylko metraż, lokalizacja i cena. To decyzja, która wpływa na codzienne życie.
               Dlatego pomagamy kupującym, sprzedającym i wynajmującym przejść przez cały proces spokojnie,
               bez chaosu i niepotrzebnego stresu.</p>
-            <ul class="list-unstyled">
+       <ul class="list-unstyled fs-5 lh-base d-flex flex-column gap-3">
               <li>✓ Indywidualne podejście do każdej nieruchomości</li>
               <li>✓ Wsparcie przy sprzedaży, zakupie i wynajmie</li>
               <li>✓ Pomoc w przygotowaniu oferty i prezentacji nieruchomości</li>
