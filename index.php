@@ -154,7 +154,8 @@
       <div class="row justify-content-center">
         <div class="col-lg-8">
           <h1 style="font-size: 64px" class="text-white lh-3 my-3">Pewny krok w dobrą stronę</h1>
-          <p class="text-white mb-4">Sprzedaj, kup lub wynajmij nieruchomość z pomocą doświadczonych specjalistów. Bezpiecznie, profesjonalnie i na jasnych zasadach.</p>
+          <p class="text-white mb-4">Sprzedaj, kup lub wynajmij nieruchomość z pomocą doświadczonych specjalistów.
+            Bezpiecznie, profesjonalnie i na jasnych zasadach.</p>
 
           <!-- <div class="row billboard-row rounded-pill align-items-center">
             <div class="col-lg-3">
@@ -237,7 +238,7 @@
             <p>Nieruchomość to nie tylko metraż, lokalizacja i cena. To decyzja, która wpływa na codzienne życie.
               Dlatego pomagamy kupującym, sprzedającym i wynajmującym przejść przez cały proces spokojnie,
               bez chaosu i niepotrzebnego stresu.</p>
-       <ul class="list-unstyled fs-5 lh-base d-flex flex-column gap-3">
+            <ul class="list-unstyled fs-5 lh-base d-flex flex-column gap-3">
               <li>✓ Indywidualne podejście do każdej nieruchomości</li>
               <li>✓ Wsparcie przy sprzedaży, zakupie i wynajmie</li>
               <li>✓ Pomoc w przygotowaniu oferty i prezentacji nieruchomości</li>
@@ -470,8 +471,9 @@
   </section> -->
 
   <!-- Lets start  -->
-  <section id="start" class="padding-medium"
-    style="background: url(images/background2.jpg); background-repeat: no-repeat; background-position: center; height: 360px;">
+  <section id="start" class="padding-medium  bg-dark""
+    style=" background: url(images/background2.jpg); background-repeat: no-repeat; background-position: center; height:
+    360px;">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-5 order-md-1 d-flex">

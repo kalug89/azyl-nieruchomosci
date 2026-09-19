@@ -454,10 +454,10 @@
           </li>
           <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a>
           </li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <!-- <li class="page-item"><a class="page-link" href="#">2</a></li>
           <li class="page-item"><a class="page-link" href="#">3</a></li>
           <li class="page-item"><a class="page-link" href="#">4</a></li>
-          <li class="page-item"><a class="page-link" href="#">5</a></li>
+          <li class="page-item"><a class="page-link" href="#">5</a></li> -->
           <li class="page-item">
             <a class="page-link" href="#" aria-label="Next">
               <iconify-icon icon="solar:arrow-right-linear" class="pagination-arrow"></iconify-icon> </a>
@@ -469,21 +469,19 @@
 
 
   <!-- Lets start  -->
-  <section id="start" class="padding-medium"
-    style="background: url(images/background.jpg); background-repeat: no-repeat; background-position: center; height: 360px;">
+  <section id="start" class="padding-medium  bg-dark""
+    style=" background: url(images/background2.jpg); background-repeat: no-repeat; background-position: center; height:
+    360px;">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-5 order-md-1 d-flex">
-          <h3 class="text-capitalize text-white display-4 fw-semibold lh-1 mb-3">Let’s simply begin the search.</h3>
+          <h3 class="text-capitalize text-white display-4 fw-semibold lh-1 mb-3">Zacznijmy od rozmowy.</h3>
         </div>
         <div class="col-md-7 order-md-2">
           <div class="text-content ps-md-5 mt-4 mt-md-0">
-            <p class="text-white py-lg-2">Neque, vestibulum sed varius magna et at. Eu, adipiscing morbi augue justo.
-              Nibh
-              laoreet volutpat quis velit. Blandit aliquam donec sed morbi congue eget lorem viverra porta id
-              lobortis.</p>
-            <a href="contact.html" class="btn btn-primary btn-lg px-4 me-md-2">Get
-              Started</a>
+            <p class="text-white py-lg-2">Sprzedajesz, kupujesz lub wynajmujesz nieruchomość? Opowiedz nam, czego
+              potrzebujesz, a pomożemy wybrać najlepszą drogę.</p>
+            <a href="kontakt.php" class="btn btn-primary btn-lg px-4 me-md-2">Umów konsultację</a>
           </div>
         </div>
       </div>

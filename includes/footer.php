@@ -7,17 +7,26 @@
      </div>
 
 
-          <div class=" col-md-6">
-           
-          <p class="text-white">
-            Azyl Nieruchomości pomaga bezpiecznie kupować, sprzedawać i wynajmować mieszkania, domy oraz działki. 
-            Stawiamy na spokojny proces, jasne zasady i indywidualne podejście.
-          </p>
-          <i class="bi-facebook text-white pe-4"></i>
-          <i class="bi-instagram text-white pe-4"></i>
-          <!-- <i class="bi-twitter text-white pe-4"></i>
-          <i class="bi-youtube text-white pe-4"></i> -->
-        </div>
+   <div class="col-md-6">
+  <p class="text-white">
+    Azyl Nieruchomości pomaga bezpiecznie kupować, sprzedawać i wynajmować mieszkania, domy oraz działki. 
+    Stawiamy na spokojny proces, jasne zasady i indywidualne podejście.
+  </p>
+
+  <a href="https://www.facebook.com/TWOJ_PROFIL"
+     target="_blank" rel="noopener noreferrer"
+     aria-label="Facebook Azyl Nieruchomości">
+    <i class="bi-facebook text-white pe-4"></i>
+  </a>
+
+  <a href="https://www.instagram.com/TWOJ_PROFIL"
+     target="_blank" rel="noopener noreferrer"
+     aria-label="Instagram Azyl Nieruchomości">
+    <i class="bi-instagram text-white pe-4"></i>
+  </a>
+</div>
+
+        
 
          <div class=" col-md-4">
              <h3 class="text-white">Skontaktuj się z nami:</h3>

@@ -143,7 +143,7 @@
   </svg>
 
   <!-- nav bar start  -->
-      <?php include 'includes/header.php'; ?>
+  <?php include 'includes/header.php'; ?>
 
 
   <section id="page-billboard">
@@ -161,39 +161,26 @@
       <div class="row align-items-center pb-5">
         <div class="col-md-9 d-md-flex">
           <div class="dropdown mb-3 me-3">
-            <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              For Sale
+            <button class="btn btn-primary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Sprzedaż
             </button>
-            <div class="dropdown-menu p-4">
-              <h5 class="list-title text-black mb-3">Listing Status</h5>
-              <div class="radio-element">
-                <div class="form-check ">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"
-                    checked="checked">
-                  <label class="form-check-label" for="flexRadioDefault1">Rent</label>
-                </div>
-                <div class="form-check ">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                  <label class="form-check-label" for="flexRadioDefault2">Buy</label>
-                </div>
-                <div class="form-check ">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
-                  <label class="form-check-label" for="flexRadioDefault3">Sold</label>
-                </div>
-              </div>
-              <hr>
-              <div class=" text-start ">
-                <button type="button" class="btn btn-primary">Done</button>
-              </div>
-            </div>
+            <button class="btn btn-primary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Kupno
+            </button>
+            <button class="btn btn-primary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Wynajem
+            </button>
+            <button class="btn btn-primary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Cena
+            </button>
+
           </div>
-          <div class="dropdown mb-3 me-3">
-            <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+          <!-- <div class="dropdown mb-3 me-3"> -->
+          <!-- <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown"
               aria-expanded="false">
               Property Type
-            </button>
-            <div class="dropdown-menu p-4">
+            </button> -->
+          <!-- <div class="dropdown-menu p-4">
               <h5 class=" text-black mb-3"> Property Type</h5>
               <div class="checkbox-element">
                 <div class="form-check">
@@ -232,9 +219,9 @@
               <div class=" text-start ">
                 <button type="button" class="btn btn-primary">Done</button>
               </div>
-            </div>
-          </div>
-          <div class="dropdown mb-3 me-3">
+            </div> -->
+          <!-- </div> -->
+          <!-- <div class="dropdown mb-3 me-3">
             <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown"
               aria-expanded="false">
               Rooms
@@ -316,8 +303,8 @@
                 <button type="button" class="btn btn-primary">Done</button>
               </div>
             </div>
-          </div>
-          <div class="dropdown mb-3 me-3">
+          </div> -->
+          <!-- <div class="dropdown mb-3 me-3">
             <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown"
               aria-expanded="false">
               Price
@@ -345,16 +332,14 @@
                 <button type="button" class="btn btn-primary">Done</button>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
 
         <div class="col-md-3">
           <select class="form-select border border-dark" aria-label="Default select example">
-            <option selected>All</option>
-            <option value="1">New Arrivals</option>
-            <option value="2">Best Seller</option>
-            <option value="3">Low Price</option>
-            <option value="4">Best Match</option>
+            <option selected>Wszystkie</option>
+            <option value="1">Nowości</option>
+            <option value="4">Najtańsze</option>
           </select>
         </div>
       </div>
@@ -395,54 +380,52 @@
             </div>
           </div>
         </div>
-      
-          
 
-          
-        
-         
-        </div>
+
+
+
+
+
       </div>
+  </div>
 
-      <nav aria-label="Page navigation" class="d-flex justify-content-center pt-4 my-5">
-        <ul class="pagination">
-          <li class="page-item">
-            <a class="page-link" href="#" aria-label="Previous">
-              <iconify-icon icon="solar:arrow-left-linear" class="pagination-arrow"></iconify-icon>
-            </a>
-          </li>
-          <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a>
-          </li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item"><a class="page-link" href="#">4</a></li>
-          <li class="page-item"><a class="page-link" href="#">5</a></li>
-          <li class="page-item">
-            <a class="page-link" href="#" aria-label="Next">
-              <iconify-icon icon="solar:arrow-right-linear" class="pagination-arrow"></iconify-icon> </a>
-          </li>
-        </ul>
-      </nav>
-    </main>
+  <nav aria-label="Page navigation" class="d-flex justify-content-center pt-4 my-5">
+    <ul class="pagination">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+          <iconify-icon icon="solar:arrow-left-linear" class="pagination-arrow"></iconify-icon>
+        </a>
+      </li>
+      <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a>
+      </li>
+      <!-- <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">4</a></li>
+      <li class="page-item"><a class="page-link" href="#">5</a></li> -->
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          <iconify-icon icon="solar:arrow-right-linear" class="pagination-arrow"></iconify-icon> </a>
+      </li>
+    </ul>
+  </nav>
+  </main>
   </div>
 
 
   <!-- Lets start  -->
-  <section id="start" class="padding-medium"
-    style="background: url(images/background.jpg); background-repeat: no-repeat; background-position: center; height: 360px;">
+  <section id="start" class="padding-medium  bg-dark""
+    style=" background: url(images/background2.jpg); background-repeat: no-repeat; background-position: center; height:
+    360px;">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-5 order-md-1 d-flex">
-          <h3 class="text-capitalize text-white display-4 fw-semibold lh-1 mb-3">Let’s simply begin the search.</h3>
+          <h3 class="text-capitalize text-white display-4 fw-semibold lh-1 mb-3">Zacznijmy od rozmowy.</h3>
         </div>
         <div class="col-md-7 order-md-2">
           <div class="text-content ps-md-5 mt-4 mt-md-0">
-            <p class="text-white py-lg-2">Neque, vestibulum sed varius magna et at. Eu, adipiscing morbi augue justo.
-              Nibh
-              laoreet volutpat quis velit. Blandit aliquam donec sed morbi congue eget lorem viverra porta id
-              lobortis.</p>
-            <a href="contact.html" class="btn btn-primary btn-lg px-4 me-md-2">Get
-              Started</a>
+            <p class="text-white py-lg-2">Sprzedajesz, kupujesz lub wynajmujesz nieruchomość? Opowiedz nam, czego
+              potrzebujesz, a pomożemy wybrać najlepszą drogę.</p>
+            <a href="kontakt.php" class="btn btn-primary btn-lg px-4 me-md-2">Umów konsultację</a>
           </div>
         </div>
       </div>
@@ -450,7 +433,7 @@
   </section>
 
   <!-- Footer start  -->
-       <?php include 'includes/footer.php'; ?>
+  <?php include 'includes/footer.php'; ?>
 
 
   <script src="js/jquery-1.11.0.min.js"></script>

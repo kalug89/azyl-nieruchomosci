@@ -186,6 +186,30 @@
           </p>
 
 
+<h2 class="mb-4">Działamy na terenie całego Mazowsza</h2>
+
+    <p class="lead">
+      <strong>Biuro Nieruchomości Azyl działa na terenie całego województwa mazowieckiego.</strong>
+    </p>
+
+    <p>
+      Łączymy szerokie spojrzenie na rynek z bardzo dobrą znajomością lokalnych realiów.
+      Szczególną uwagę poświęcamy
+      <strong>Grodziskowi Mazowieckiemu, Milanówkowi, Żyrardowowi oraz okolicznym miejscowościom</strong>,
+      gdzie budujemy silną lokalną obecność i relacje z klientami.
+    </p>
+
+    <p>
+      Niezależnie od tego, czy nieruchomość znajduje się w dużym mieście, kameralnej
+      miejscowości czy podmiejskiej lokalizacji, zapewniamy ten sam poziom
+      zaangażowania i profesjonalnej obsługi.
+    </p>
+
+    <p class="obszar-dzialania__haslo mb-0">
+      Mazowsze znamy lokalnie. Rynek rozumiemy szerzej.
+    </p>
+  
+
           <h2 class="mt-5 mb-3">
             Doświadczenie, któremu możesz zaufać
           </h2>

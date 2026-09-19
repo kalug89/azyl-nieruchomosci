@@ -173,29 +173,37 @@
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <div class="ratio ratio-4x3 bg-transparent">
-                    <button type="button" class="border-0 p-0 bg-transparent w-100 h-100" data-photo="0" aria-label="Powiększ zdjęcie 1">
-                      <img src="images/domy/4.jpg" alt="Dom w Piastowie — zdjęcie 1" class="d-block w-100 h-100" style="object-fit: contain;">
+                    <button type="button" class="border-0 p-0 bg-transparent w-100 h-100" data-photo="0"
+                      aria-label="Powiększ zdjęcie 1">
+                      <img src="images/domy/4.jpg" alt="Dom w Piastowie — zdjęcie 1" class="d-block w-100 h-100"
+                        style="object-fit: contain;">
                     </button>
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="ratio ratio-4x3 bg-transparent">
-                    <button type="button" class="border-0 p-0 bg-transparent w-100 h-100" data-photo="1" aria-label="Powiększ zdjęcie 2">
-                      <img src="images/domy/2.jpg" alt="Dom w Piastowie — zdjęcie 2" class="d-block w-100 h-100" style="object-fit: contain;">
+                    <button type="button" class="border-0 p-0 bg-transparent w-100 h-100" data-photo="1"
+                      aria-label="Powiększ zdjęcie 2">
+                      <img src="images/domy/2.jpg" alt="Dom w Piastowie — zdjęcie 2" class="d-block w-100 h-100"
+                        style="object-fit: contain;">
                     </button>
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="ratio ratio-4x3 bg-transparent">
-                    <button type="button" class="border-0 p-0 bg-transparent w-100 h-100" data-photo="2" aria-label="Powiększ zdjęcie 3">
-                      <img src="images/domy/3.jpg" alt="Dom w Piastowie — zdjęcie 3" class="d-block w-100 h-100" style="object-fit: contain;">
+                    <button type="button" class="border-0 p-0 bg-transparent w-100 h-100" data-photo="2"
+                      aria-label="Powiększ zdjęcie 3">
+                      <img src="images/domy/3.jpg" alt="Dom w Piastowie — zdjęcie 3" class="d-block w-100 h-100"
+                        style="object-fit: contain;">
                     </button>
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="ratio ratio-4x3 bg-transparent">
-                    <button type="button" class="border-0 p-0 bg-transparent w-100 h-100" data-photo="3" aria-label="Powiększ zdjęcie 4">
-                      <img src="images/domy/5.jpg" alt="Dom w Piastowie — zdjęcie 4" class="d-block w-100 h-100" style="object-fit: contain;">
+                    <button type="button" class="border-0 p-0 bg-transparent w-100 h-100" data-photo="3"
+                      aria-label="Powiększ zdjęcie 4">
+                      <img src="images/domy/5.jpg" alt="Dom w Piastowie — zdjęcie 4" class="d-block w-100 h-100"
+                        style="object-fit: contain;">
                     </button>
                   </div>
                 </div>
@@ -210,101 +218,109 @@
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <div class="ratio ratio-4x3">
-                    <button type="button" class="border-0 p-0 bg-transparent w-100 h-100" data-index="0" aria-label="Pokaż zdjęcie 1">
-                      <img src="images/domy/4.jpg" alt="" class="d-block w-100 h-100 rounded" style="object-fit: cover;">
+                    <button type="button" class="border-0 p-0 bg-transparent w-100 h-100" data-index="0"
+                      aria-label="Pokaż zdjęcie 1">
+                      <img src="images/domy/4.jpg" alt="" class="d-block w-100 h-100 rounded"
+                        style="object-fit: cover;">
                     </button>
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="ratio ratio-4x3">
-                    <button type="button" class="border-0 p-0 bg-transparent w-100 h-100" data-index="1" aria-label="Pokaż zdjęcie 2">
-                      <img src="images/domy/2.jpg" alt="" class="d-block w-100 h-100 rounded" style="object-fit: cover;">
+                    <button type="button" class="border-0 p-0 bg-transparent w-100 h-100" data-index="1"
+                      aria-label="Pokaż zdjęcie 2">
+                      <img src="images/domy/2.jpg" alt="" class="d-block w-100 h-100 rounded"
+                        style="object-fit: cover;">
                     </button>
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="ratio ratio-4x3">
-                    <button type="button" class="border-0 p-0 bg-transparent w-100 h-100" data-index="2" aria-label="Pokaż zdjęcie 3">
-                      <img src="images/domy/3.jpg" alt="" class="d-block w-100 h-100 rounded" style="object-fit: cover;">
+                    <button type="button" class="border-0 p-0 bg-transparent w-100 h-100" data-index="2"
+                      aria-label="Pokaż zdjęcie 3">
+                      <img src="images/domy/3.jpg" alt="" class="d-block w-100 h-100 rounded"
+                        style="object-fit: cover;">
                     </button>
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="ratio ratio-4x3">
-                    <button type="button" class="border-0 p-0 bg-transparent w-100 h-100" data-index="3" aria-label="Pokaż zdjęcie 4">
-                      <img src="images/domy/5.jpg" alt="" class="d-block w-100 h-100 rounded" style="object-fit: cover;">
+                    <button type="button" class="border-0 p-0 bg-transparent w-100 h-100" data-index="3"
+                      aria-label="Pokaż zdjęcie 4">
+                      <img src="images/domy/5.jpg" alt="" class="d-block w-100 h-100 rounded"
+                        style="object-fit: cover;">
                     </button>
                   </div>
                 </div>
               </div>
             </div>
 
-        <div class="post-content py-5">
+            <div class="post-content py-5">
 
-          <div class="overview my-5">
-            <h3 class="fs-2 mb-4">Informacje o nieruchomości</h3>
+              <div class="overview my-5">
+                <h3 class="fs-2 mb-4">Informacje o nieruchomości</h3>
 
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mt-1">
-              <div class="col d-flex align-items-start">
-                <iconify-icon icon="material-symbols:home-outline" class="property-icon border p-3">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mt-1">
+                  <div class="col d-flex align-items-start">
+                    <iconify-icon icon="material-symbols:home-outline" class="property-icon border p-3">
 
-                </iconify-icon>
-                <div class="ms-4">
-                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Typ nieruchomości:</h3>
-                  <p>Dom jednorodzinny wolnostojący</p>
+                    </iconify-icon>
+                    <div class="ms-4">
+                      <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Typ nieruchomości:</h3>
+                      <p>Dom jednorodzinny wolnostojący</p>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <iconify-icon icon="material-symbols:square-foot" class="property-icon border p-3">
+
+                    </iconify-icon>
+                    <div class="ms-4">
+                      <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Powierzchnia </h3>
+                      <p>244 m² </p>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <iconify-icon icon="material-symbols:meeting-room-outline" class="property-icon border p-3">
+
+                    </iconify-icon>
+                    <div class="ms-4">
+                      <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Liczba pokoi </h3>
+                      <p>5</p>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <iconify-icon icon="material-symbols:construction" class="property-icon border p-3">
+
+                    </iconify-icon>
+                    <div class="ms-4">
+                      <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Stan nieruchomości </h3>
+                      <p>Wysoki standard / do zamieszkania</p>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <iconify-icon icon="material-symbols:location-on-outline" class="property-icon border p-3">
+
+                    </iconify-icon>
+                    <div class="ms-4">
+                      <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Lokalizacja</h3>
+                      <p>Piastów, przy granicy z Warszawą</p>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <iconify-icon icon="material-symbols:calendar-month-outline" class="property-icon border p-3">
+
+                    </iconify-icon>
+                    <div class="ms-4">
+                      <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Dostępność</h3>
+                      <p>dostępny</p>
+                    </div>
+                  </div>
+
                 </div>
+
               </div>
-              <div class="col d-flex align-items-start">
-                <iconify-icon icon="material-symbols:square-foot" class="property-icon border p-3">
-
-                </iconify-icon>
-                <div class="ms-4">
-                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Powierzchnia </h3>
-                  <p>244 m² </p>
-                </div>
-              </div>
-              <div class="col d-flex align-items-start">
-                <iconify-icon icon="material-symbols:meeting-room-outline" class="property-icon border p-3">
-
-                </iconify-icon>
-                <div class="ms-4">
-                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Liczba pokoi </h3>
-                  <p>5</p>
-                </div>
-              </div>
-              <div class="col d-flex align-items-start">
-                <iconify-icon icon="material-symbols:construction" class="property-icon border p-3">
-
-                </iconify-icon>
-                <div class="ms-4">
-                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Stan nieruchomości </h3>
-                  <p>Wysoki standard / do zamieszkania</p>
-                </div>
-              </div>
-              <div class="col d-flex align-items-start">
-                <iconify-icon icon="material-symbols:location-on-outline" class="property-icon border p-3">
-
-                </iconify-icon>
-                <div class="ms-4">
-                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Lokalizacja</h3>
-                  <p>Piastów, przy granicy z Warszawą</p>
-                </div>
-              </div>
-              <div class="col d-flex align-items-start">
-                <iconify-icon icon="material-symbols:calendar-month-outline" class="property-icon border p-3">
-
-                </iconify-icon>
-                <div class="ms-4">
-                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Dostępność</h3>
-                  <p>dostępny</p>
-                </div>
-              </div>
-
-            </div>
-
-          </div>
-          <hr>
-          <!-- <div class="price my-5">
+              <hr>
+              <!-- <div class="price my-5">
                 <h3 class=" fs-2 mb-4">Price Details</h3>
                 <p> <span class="fw-bold">Rent/Month :</span> 90,000 (negotiable)</p>
                 <p> <span class="fw-bold">Service Charge :</span> 8,000/= Tk per month, subject to change
@@ -314,88 +330,88 @@
 
               </div> -->
 
-          <div class="details my-5">
-            <h3 class=" fs-2 mb-4">Szczegóły nieruchomości</h3>
-            <p> <span class="fw-bold">
-                Na sprzedaż wyjątkowy dom jednorodzinny o powierzchni 244 m², usytuowany na działce o powierzchni
-                763 m², położony w Piastowie, tuż przy granicy Warszawy. To propozycja dla osób ceniących nowoczesną
-                architekturę, wysoką jakość wykonania oraz komfort codziennego życia w kameralnym otoczeniu z
-                szybkim dostępem do stolicy.
-            </span></p>
+              <div class="details my-5">
+                <h3 class=" fs-2 mb-4">Szczegóły nieruchomości</h3>
+                <p> <span class="fw-bold">
+                    Na sprzedaż wyjątkowy dom jednorodzinny o powierzchni 244 m², usytuowany na działce o powierzchni
+                    763 m², położony w Piastowie, tuż przy granicy Warszawy. To propozycja dla osób ceniących nowoczesną
+                    architekturę, wysoką jakość wykonania oraz komfort codziennego życia w kameralnym otoczeniu z
+                    szybkim dostępem do stolicy.
+                  </span></p>
 
-            <p> <span class="fw-bold">
-                Na sprzedaż wyjątkowy dom jednorodzinny o powierzchni 244 m², usytuowany na działce o powierzchni
-                763 m², położony w Piastowie, tuż przy granicy Warszawy. To propozycja dla osób ceniących nowoczesną
-                architekturę, wysoką jakość wykonania oraz komfort codziennego życia w kameralnym otoczeniu z
-                szybkim dostępem do stolicy.
-            </span></p>
+                <p> <span class="fw-bold">
+                    Na sprzedaż wyjątkowy dom jednorodzinny o powierzchni 244 m², usytuowany na działce o powierzchni
+                    763 m², położony w Piastowie, tuż przy granicy Warszawy. To propozycja dla osób ceniących nowoczesną
+                    architekturę, wysoką jakość wykonania oraz komfort codziennego życia w kameralnym otoczeniu z
+                    szybkim dostępem do stolicy.
+                  </span></p>
 
-            <p> <span class="fw-bold">
-                Nieruchomość została wybudowana w 2016 roku
-                według indywidualnego projektu renomowanej pracowni Beczak/Beczak Architekci. Budynek był
-                prezentowany na okładce magazynu *Murator*, wystąpił w programie Omeny Mensah „Domy Wyjątkowe”,
-                otrzymał wyróżnienie Fasada Roku 2016 oraz został nominowany do konkursu ArchDaily Building of the
-                Year 2018.
-            </span></p>
+                <p> <span class="fw-bold">
+                    Nieruchomość została wybudowana w 2016 roku
+                    według indywidualnego projektu renomowanej pracowni Beczak/Beczak Architekci. Budynek był
+                    prezentowany na okładce magazynu *Murator*, wystąpił w programie Omeny Mensah „Domy Wyjątkowe”,
+                    otrzymał wyróżnienie Fasada Roku 2016 oraz został nominowany do konkursu ArchDaily Building of the
+                    Year 2018.
+                  </span></p>
 
-            <p> <span class="fw-bold">
-                Architektura domu opiera się na prostocie formy, ponadczasowej estetyce i harmonijnym połączeniu z
-                otoczeniem. Klasyczna bryła z dwuspadowym dachem została wzbogacona o nowoczesne detale i
-                kontrastowe materiały wykończeniowe. Biały tynk zestawiono z ryflowaną elewacją z ciemnego drewna, a
-                całość uzupełniają antracytowe okna oraz dach pokryty płaską dachówką ceramiczną.
-            </span></p>
-
-
-
-            <p> <span class="fw-bold">
-                Dom został usytuowany w północnej części działki, dzięki czemu ogród oraz przestronny taras od
-                strony południowej są doskonale nasłonecznione przez cały dzień. Układ zabudowy, garaż oraz
-                ogrodzenie gabionowe zapewniają mieszkańcom wysoki poziom prywatności. Duże przeszklenia wprowadzają
-                do wnętrz naturalne światło, jednocześnie zachowując dyskrecję dzięki roletom i odpowiednio
-                zaprojektowanym ścianom osłonowym.
-
-            </span></p>
-
-            <p> <span class="fw-bold">
-                Wnętrza zachwycają nowoczesnym wzornictwem oraz starannie dobranymi materiałami. Dominują biała
-                cegła, ciemne drewno, stal i szkło, a wyjątkowego charakteru nadają odsłonięta więźba dachowa,
-                designerski kominek ze stali oraz efektowny szklany most łączący część domu.
-            </span></p>
-
-            
-
-          </div>
-          <hr>
-          <div class="feature my-5">
-            <h4 class=" fs-2 mb-4">Rozkład pomieszczeń</h4>
-            <h5 class=" fs-2 mb-4">Parter</h5>
-
-            <div class="d-flex">
-              <ul class="ms-4 me-5">
-                <li> reprezentacyjny hol wejściowy,</li>
-                <li> przestronny salon z wysokim sufitem i odsłoniętą więźbą dachową, </li>
-                <li> jadalnia połączona z kuchnią oraz wyjściem na taras,
-                </li>
-                <li> pokój gościnny z prywatną łazienką,
-                </li>
-                <li> toaleta dla gości, </li>
-              </ul>
-              <ul class="ms-5">
-                <li>garderoby </li>
-                <li> pomieszczenie techniczne,
-                </li>
-                <li> kameralna galeria od strony północnej przy tylnym wejściu </li>
-                <li>* hol z komunikacją i schodami.
-                </li>
+                <p> <span class="fw-bold">
+                    Architektura domu opiera się na prostocie formy, ponadczasowej estetyce i harmonijnym połączeniu z
+                    otoczeniem. Klasyczna bryła z dwuspadowym dachem została wzbogacona o nowoczesne detale i
+                    kontrastowe materiały wykończeniowe. Biały tynk zestawiono z ryflowaną elewacją z ciemnego drewna, a
+                    całość uzupełniają antracytowe okna oraz dach pokryty płaską dachówką ceramiczną.
+                  </span></p>
 
 
-              </ul>
-            </div>
 
-          </div>
-          <hr>
+                <p> <span class="fw-bold">
+                    Dom został usytuowany w północnej części działki, dzięki czemu ogród oraz przestronny taras od
+                    strony południowej są doskonale nasłonecznione przez cały dzień. Układ zabudowy, garaż oraz
+                    ogrodzenie gabionowe zapewniają mieszkańcom wysoki poziom prywatności. Duże przeszklenia wprowadzają
+                    do wnętrz naturalne światło, jednocześnie zachowując dyskrecję dzięki roletom i odpowiednio
+                    zaprojektowanym ścianom osłonowym.
 
-          <!-- <div class="address my-5">
+                  </span></p>
+
+                <p> <span class="fw-bold">
+                    Wnętrza zachwycają nowoczesnym wzornictwem oraz starannie dobranymi materiałami. Dominują biała
+                    cegła, ciemne drewno, stal i szkło, a wyjątkowego charakteru nadają odsłonięta więźba dachowa,
+                    designerski kominek ze stali oraz efektowny szklany most łączący część domu.
+                  </span></p>
+
+
+
+              </div>
+              <hr>
+              <div class="feature my-5">
+                <h4 class=" fs-2 mb-4">Rozkład pomieszczeń</h4>
+                <h5 class=" fs-2 mb-4">Parter</h5>
+
+                <div class="d-flex">
+                  <ul class="ms-4 me-5">
+                    <li> reprezentacyjny hol wejściowy,</li>
+                    <li> przestronny salon z wysokim sufitem i odsłoniętą więźbą dachową, </li>
+                    <li> jadalnia połączona z kuchnią oraz wyjściem na taras,
+                    </li>
+                    <li> pokój gościnny z prywatną łazienką,
+                    </li>
+                    <li> toaleta dla gości, </li>
+                  </ul>
+                  <ul class="ms-5">
+                    <li>garderoby </li>
+                    <li> pomieszczenie techniczne,
+                    </li>
+                    <li> kameralna galeria od strony północnej przy tylnym wejściu </li>
+                    <li>* hol z komunikacją i schodami.
+                    </li>
+
+
+                  </ul>
+                </div>
+
+              </div>
+              <hr>
+
+              <!-- <div class="address my-5">
                 <h3 class=" fs-2 mb-4">Address</h3>
                 <div class="d-flex">
                   <div class="me-5">
@@ -414,8 +430,8 @@
               </div> -->
 
 
-        </div>
-        </article>
+            </div>
+          </article>
         </div>
         <!-- <div id="post-author-info" class="border-top border-bottom py-5">
             <div class="row d-flex align-items-center">
@@ -549,88 +565,12 @@
             </div>
           </section> -->
 
-    </main>
-
-    <aside class="col-md-3">
-            <form id="form" class="form-group flex-wrap border rounded-4 p-3">
-          <h2 class=" fs-2 text-uppercase text-black my-3">ZAREZERWUJ</h2>
-          <div class="form-input col-lg-12 my-4">
-            <label for="exampleInputEmail1" class="form-label fs-6 text-uppercase fw-bold text-black">Imię i nazwisko</label>
-            <input type="text" name="email" placeholder="Wpisz imię i nazwisko" class="form-control ps-3">
-          </div>
-          <div class="form-input col-lg-12 my-4">
-            <label for="exampleInputEmail1" class="form-label fs-6 text-uppercase fw-bold text-black">Adres e-mail</label>
-            <input type="text" name="email" placeholder="Wpisz twój adres e-mail" class="form-control ps-3">
-          </div>
-          <div class="col-lg-12 my-4">
-            <label for="exampleInputEmail1" class="form-label fs-6 text-uppercase fw-bold text-black">Numer telefonu</label>
-            <input type="text" name="email" placeholder="Numer telefonu" class="form-control ps-3">
-          </div>
-    
- 
-          <div class="col-lg-12 my-4">
-            <label for="exampleInputEmail1" class="form-label fs-6 text-uppercase fw-bold text-black">Wiadomość</label>
-            <textarea placeholder="Miejsce na twoją wiadomość" class="form-control ps-3" rows="8"></textarea>
-          </div>
-          <div class="d-grid mb-3">
-            <button class="btn btn-primary btn-lg text-uppercase btn-rounded-none">Wyślij</button>
-          </div>
-        </form>
-      <div class="border rounded-4 p-3 mt-5">
-        <h2 class=" fs-2 text-uppercase text-black mt-3 mb-4">Nasi agenci</h2>
-        <!-- <article class="comment-item align-items-center row mb-4 ">
-            <div class="col-md-3">
-              <a href="agents.html"> <img src="images/team4.jpg" alt="default"
-                  class="commentor-image img-fluid rounded-circle"> </a>
-            </div>
-            <div class="col-md-9 ">
-              <a href="agents.html">
-                <h5 class="element-title text-black text-uppercase ">Sandey Opwers</h5>
-              </a>
-              <h6 class="heading-color text-black">Real estate broker</h6>
-              <p class="text-black m-0">+1650-243-0000</p>
-            </div>
-          </article> -->
-        <article class="comment-item pb-3 align-items-center row mb-4">
-          <div class="col-md-3">
-            <a href="agents.html"> <img src="images/team5.jpg" alt="default"
-                class="commentor-image img-fluid rounded-circle"> </a>
-          </div>
-          <div class="col-md-9">
-            <a href="">
-              <h5 class="element-title text-black text-uppercase ">Magda Kalużna</h5>
-            </a>
-            <h6 class="heading-color text-black">Agentka nieruchomości</h6>
-            <p class="text-black m-0">+48 511-854-990</p>
-                      
-
-          </div>
-        </article>
-
-        <article class="comment-item pb-3 align-items-center row mb-4">
-          <div class="col-md-3">
-            <a href=""> <img src="images/team5.jpg" alt="default"
-                class="commentor-image img-fluid rounded-circle"> </a>
-          </div>
-          <div class="col-md-9">
-            <a href="agents.html">
-              <h5 class="element-title text-black text-uppercase ">Dawid Kalużny</h5>
-            </a>
-            <h6 class="heading-color text-black">Agent nieruchomości</h6>
-          </div>
-             <div class="col-md-12">
-                      <p class="text-black m-0">dawid@azyl-nieruchomosci.com</p>
-</div>
-        </article>
-
-
-        <div class="d-grid mb-3">
-          <a href="agents.html" class="btn btn-primary btn-lg text-uppercase btn-rounded-none">Skontaktuj się z
-            nami!</a>
-        </div>
-      </div>
-    </aside>
-  </div>
+      </main>
+      <aside class="col-md-3">
+        <?php include 'includes/reservation.php'; ?>
+        <?php include 'includes/agents.php'; ?>
+      </aside>
+    </div>
   </div>
 
 
@@ -674,9 +614,11 @@
           </div>
         </div>
         <div class="modal-footer border-0 justify-content-between flex-nowrap">
-          <button id="azylModalPrev" type="button" class="btn btn-outline-dark" aria-label="Poprzednie zdjęcie">&#10094;</button>
+          <button id="azylModalPrev" type="button" class="btn btn-outline-dark"
+            aria-label="Poprzednie zdjęcie">&#10094;</button>
           <span id="azylPhotoCounter" aria-live="polite"></span>
-          <button id="azylModalNext" type="button" class="btn btn-outline-dark" aria-label="Następne zdjęcie">&#10095;</button>
+          <button id="azylModalNext" type="button" class="btn btn-outline-dark"
+            aria-label="Następne zdjęcie">&#10095;</button>
         </div>
       </div>
     </div>
@@ -690,90 +632,90 @@
   <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
   <script src="js/script.js"></script>
   <script>
-  (() => {
-    function initAzylGallery() {
-      const galleryElement = document.getElementById("azylGallery");
-      const thumbsElement = document.getElementById("azylThumbs");
-      const modalElement = document.getElementById("azylPhotoModal");
-      if (!galleryElement || galleryElement.swiper) return;
-      if (!window.Swiper || !window.bootstrap?.Modal) {
-        console.error("Galeria wymaga Swipera i JavaScriptu Bootstrap 5.");
-        return;
-      }
-      const photos = [...galleryElement.querySelectorAll("[data-photo] img")].map(img => ({
-        src: img.dataset.full || img.getAttribute("src"), alt: img.alt
-      }));
-      const thumbs = new Swiper(thumbsElement, {
-        slidesPerView: 4, spaceBetween: 8, watchOverflow: true
-      });
-      const gallery = new Swiper(galleryElement, {
-        slidesPerView: 1, spaceBetween: 0, effect: "slide", loop: false, autoHeight: false
-      });
-      const thumbButtons = [...thumbsElement.querySelectorAll("[data-index]")];
-      function updateThumbnails() {
-        thumbButtons.forEach((button, index) => {
-          const active = index === gallery.activeIndex;
-          button.setAttribute("aria-current", active ? "true" : "false");
-          button.classList.toggle("opacity-50", !active);
-        });
-        thumbs.slideTo(gallery.activeIndex);
-      }
-      gallery.on("slideChange", updateThumbnails);
-      updateThumbnails();
-      thumbsElement.addEventListener("click", event => {
-        const button = event.target.closest("[data-index]");
-        if (button && thumbs.allowClick !== false) gallery.slideTo(Number(button.dataset.index));
-      });
-      function moveGallery(direction) {
-        gallery.slideTo((gallery.activeIndex + direction + photos.length) % photos.length);
-      }
-      document.getElementById("azylPrev").addEventListener("click", () => moveGallery(-1));
-      document.getElementById("azylNext").addEventListener("click", () => moveGallery(1));
-      const modal = new bootstrap.Modal(modalElement);
-      const fullPhoto = document.getElementById("azylFullPhoto");
-      const counter = document.getElementById("azylPhotoCounter");
-      let currentPhoto = 0;
-      let opener = null;
-      function showPhoto(index) {
-        currentPhoto = (index + photos.length) % photos.length;
-        fullPhoto.src = photos[currentPhoto].src;
-        fullPhoto.alt = photos[currentPhoto].alt;
-        counter.textContent = `${currentPhoto + 1} / ${photos.length}`;
-      }
-      function openPhoto(index, trigger) {
-        opener = trigger;
-        showPhoto(index);
-        modal.show(trigger);
-      }
-      galleryElement.addEventListener("click", event => {
-        const button = event.target.closest("[data-photo]");
-        if (button && gallery.allowClick !== false) openPhoto(Number(button.dataset.photo), button);
-      });
-      document.getElementById("azylEnlarge").addEventListener("click", event => {
-        openPhoto(gallery.activeIndex, event.currentTarget);
-      });
-      document.getElementById("azylModalPrev").addEventListener("click", () => showPhoto(currentPhoto - 1));
-      document.getElementById("azylModalNext").addEventListener("click", () => showPhoto(currentPhoto + 1));
-      modalElement.addEventListener("keydown", event => {
-        if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
-          event.preventDefault();
-          showPhoto(currentPhoto + (event.key === "ArrowRight" ? 1 : -1));
+    (() => {
+      function initAzylGallery() {
+        const galleryElement = document.getElementById("azylGallery");
+        const thumbsElement = document.getElementById("azylThumbs");
+        const modalElement = document.getElementById("azylPhotoModal");
+        if (!galleryElement || galleryElement.swiper) return;
+        if (!window.Swiper || !window.bootstrap?.Modal) {
+          console.error("Galeria wymaga Swipera i JavaScriptu Bootstrap 5.");
+          return;
         }
-      });
-      modalElement.addEventListener("shown.bs.modal", () => {
-        modalElement.querySelector("[data-bs-dismiss]").focus();
-      });
-      modalElement.addEventListener("hidden.bs.modal", () => {
-        fullPhoto.removeAttribute("src");
-        if (opener?.isConnected) opener.focus({ preventScroll: true });
-      });
-    }
-    if (document.readyState === "loading") {
-      document.addEventListener("DOMContentLoaded", initAzylGallery);
-    } else {
-      initAzylGallery();
-    }
-  })();
+        const photos = [...galleryElement.querySelectorAll("[data-photo] img")].map(img => ({
+          src: img.dataset.full || img.getAttribute("src"), alt: img.alt
+        }));
+        const thumbs = new Swiper(thumbsElement, {
+          slidesPerView: 4, spaceBetween: 8, watchOverflow: true
+        });
+        const gallery = new Swiper(galleryElement, {
+          slidesPerView: 1, spaceBetween: 0, effect: "slide", loop: false, autoHeight: false
+        });
+        const thumbButtons = [...thumbsElement.querySelectorAll("[data-index]")];
+        function updateThumbnails() {
+          thumbButtons.forEach((button, index) => {
+            const active = index === gallery.activeIndex;
+            button.setAttribute("aria-current", active ? "true" : "false");
+            button.classList.toggle("opacity-50", !active);
+          });
+          thumbs.slideTo(gallery.activeIndex);
+        }
+        gallery.on("slideChange", updateThumbnails);
+        updateThumbnails();
+        thumbsElement.addEventListener("click", event => {
+          const button = event.target.closest("[data-index]");
+          if (button && thumbs.allowClick !== false) gallery.slideTo(Number(button.dataset.index));
+        });
+        function moveGallery(direction) {
+          gallery.slideTo((gallery.activeIndex + direction + photos.length) % photos.length);
+        }
+        document.getElementById("azylPrev").addEventListener("click", () => moveGallery(-1));
+        document.getElementById("azylNext").addEventListener("click", () => moveGallery(1));
+        const modal = new bootstrap.Modal(modalElement);
+        const fullPhoto = document.getElementById("azylFullPhoto");
+        const counter = document.getElementById("azylPhotoCounter");
+        let currentPhoto = 0;
+        let opener = null;
+        function showPhoto(index) {
+          currentPhoto = (index + photos.length) % photos.length;
+          fullPhoto.src = photos[currentPhoto].src;
+          fullPhoto.alt = photos[currentPhoto].alt;
+          counter.textContent = `${currentPhoto + 1} / ${photos.length}`;
+        }
+        function openPhoto(index, trigger) {
+          opener = trigger;
+          showPhoto(index);
+          modal.show(trigger);
+        }
+        galleryElement.addEventListener("click", event => {
+          const button = event.target.closest("[data-photo]");
+          if (button && gallery.allowClick !== false) openPhoto(Number(button.dataset.photo), button);
+        });
+        document.getElementById("azylEnlarge").addEventListener("click", event => {
+          openPhoto(gallery.activeIndex, event.currentTarget);
+        });
+        document.getElementById("azylModalPrev").addEventListener("click", () => showPhoto(currentPhoto - 1));
+        document.getElementById("azylModalNext").addEventListener("click", () => showPhoto(currentPhoto + 1));
+        modalElement.addEventListener("keydown", event => {
+          if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
+            event.preventDefault();
+            showPhoto(currentPhoto + (event.key === "ArrowRight" ? 1 : -1));
+          }
+        });
+        modalElement.addEventListener("shown.bs.modal", () => {
+          modalElement.querySelector("[data-bs-dismiss]").focus();
+        });
+        modalElement.addEventListener("hidden.bs.modal", () => {
+          fullPhoto.removeAttribute("src");
+          if (opener?.isConnected) opener.focus({ preventScroll: true });
+        });
+      }
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", initAzylGallery);
+      } else {
+        initAzylGallery();
+      }
+    })();
   </script>
 </body>
 
